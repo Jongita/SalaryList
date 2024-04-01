@@ -58,7 +58,7 @@ const showList = () => {
 
         const deleteBtn = document.createElement("button");
         deleteBtn.textContent = "Ištrinti";
-        deleteBtn.className = "btn btn-info float-end btn-sm";
+        deleteBtn.className = "btn btn-primary float-end btn-sm";
 
         deleteBtn.onclick = () => {
 
